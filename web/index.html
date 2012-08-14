@@ -38,12 +38,12 @@
         
         <div class="length">
           <label for="vlength">Password length <span>e.g. 12</span></label>
-          <input type="text" class="text" name="vlength" id="vlength" value="20" autocomplete="off">
+          <input type="text" class="text" name="vlength" id="vlength" value="12" autocomplete="off">
         </div>
         
         <div class="repeat">
           <label for="repeat">Max repetition <span>e.g. 2</span></label>
-          <input type="text" class="text" name="repeat" id="repeat" value="" autocomplete="off">
+          <input type="text" class="text" name="repeat" id="repeat" value="2" autocomplete="off">
         </div>
         
         <div class="field">
@@ -63,31 +63,31 @@
               <tr>
                 <th scope="row">
                   <label for="required">Required</label>
-                  (<input type="text" class="text" name="required" id="required" value="2" autocomplete="off">)
+                  (<input type="text" class="text" name="required" id="required" value="1" autocomplete="off">)
                 </th>
-                <td><input type="radio" name="lower" value="required"></td>
-                <td><input type="radio" name="upper" value="required"></td>
-                <td><input type="radio" name="number" value="required"></td>
+                <td><input type="radio" name="lower" value="required" checked="checked"></td>
+                <td><input type="radio" name="upper" value="required" checked="checked"></td>
+                <td><input type="radio" name="number" value="required" checked="checked"></td>
                 <td><input type="radio" name="dash" value="required"></td>
                 <td><input type="radio" name="space" value="required"></td>
-                <td><input type="radio" name="symbol" value="required"></td>
+                <td><input type="radio" name="symbol" value="required" checked="checked"></td>
               </tr>
               <tr>
                 <th scope="row">Allowed</th>
-                <td><input type="radio" name="lower" value="allowed" checked="checked"></td>
-                <td><input type="radio" name="upper" value="allowed" checked="checked"></td>
-                <td><input type="radio" name="number" value="allowed" checked="checked"></td>
-                <td><input type="radio" name="dash" value="allowed" checked="checked"></td>
-                <td><input type="radio" name="space" value="allowed" checked="checked"></td>
-                <td><input type="radio" name="symbol" value="allowed" checked="checked"></td>
+                <td><input type="radio" name="lower" value="allowed"></td>
+                <td><input type="radio" name="upper" value="allowed"></td>
+                <td><input type="radio" name="number" value="allowed"></td>
+                <td><input type="radio" name="dash" value="allowed"></td>
+                <td><input type="radio" name="space" value="allowed"></td>
+                <td><input type="radio" name="symbol" value="allowed"></td>
               </tr>
               <tr>
                 <th scope="row">Forbidden</th>
                 <td><input type="radio" name="lower" value="forbidden"></td>
                 <td><input type="radio" name="upper" value="forbidden"></td>
                 <td><input type="radio" name="number" value="forbidden"></td>
-                <td><input type="radio" name="dash" value="forbidden"></td>
-                <td><input type="radio" name="space" value="forbidden"></td>
+                <td><input type="radio" name="dash" value="forbidden" checked="checked"></td>
+                <td><input type="radio" name="space" value="forbidden" checked="checked"></td>
                 <td><input type="radio" name="symbol" value="forbidden"></td>
               </tr>
             </tbody>
